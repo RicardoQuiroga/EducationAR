@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#topBar {
+    text-align: center;
+    background-color: rgb(153, 153, 153);
+}
+
+#placeholderNote {
+    text-align: center;
+    background-color: red;
+}
+
+h3{
+	vertical-align: center;
+	margin-top:15px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+#leftControl, #markerSpace, #rightControl {
+    text-align: center;
+	min-width: 200px;
+	margin-top: 20px; 
+}
+
+#positioningContainer {
+    margin-top: 125px;
+}
+
+.row {
+    height: 100%;
+}
+
+#markerButtons, #aMarkButtons, #AudienceButtons, #pushMarkerButtons {
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+}
+
+#markerRemoveButton {
+    position: absolute;
+    bottom: 47px;
+    right: 30px;
+}
+
+#galleryHeader, #markerAreaHeader, #audienceAreaHeader {
+    position: absolute;
+    top: 10px;
+    margin-bottom: 0;
+}
+
+.jumbotron {
+	min-height:200px;
+}
+
+.img-fluid {
+    max-height: 400px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    outline: none;   
+    cursor: inherit;
+    display: block;
+}
+
+.higher {
+	margin-bottom:20px;
+}
+hr.solid {
+  border-top: 3px solid #555;
+}
+
+#gallery{
+	padding:20px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	max-height:100%;
+}
+
+.galimg{
+	background-color:rgba(0,0,0,0);
+	margin:10px;
+	border:none;
+}
+
+.galimg img{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,0,0,0);
+	padding:0;
+	margin:0;
+}
+
+.galimg img:hover{
+	border:4px solid #fff;
+}
+
+.galimg img:active{
+	border:4px solid #00FF00;
+}
+
+.galimg img:focus{
+	border:4px solid #00FF00;
+}
+
+.galact img{
+	border:4px solid #00FF00;
+}
